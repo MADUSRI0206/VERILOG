@@ -4,7 +4,7 @@ module or_gate(
 input A,
 input B,
 output out_or);
-assign out_and = A | B;
+assign out_or = A | B;
 endmodule
 
 //BEHAVIORAL MODELLING
@@ -14,7 +14,7 @@ input A,
 input B,
 output reg out_or);
 always@(*)
-  out_and = A | B;
+  out_or = A | B;
 endmodule
 
 //STRUCTURAL MODELLING
